@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid snow;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .original-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid snow;
+        height: 5rem;
+        width: auto;
+    }
+
+    #compression {
+        border: none;
+        outline: 0;
+        background: transparent;
+
+    }
+}
